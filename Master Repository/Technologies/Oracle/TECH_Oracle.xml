@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="lFUl4s0clIt11s4dd/6ICA==" exportKeySalt="938943cf-99d2-4e27-8e13-513689b3e3dd" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="qiOtaaOyqIzCw0oXA5AfVQ==" exportKeySalt="6caaf6a1-4387-48b5-9814-3a3428fa3c6d" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTechno">
 		<Field name="CatalogTerm" type="java.lang.String">null</Field>
 	<Field name="ColAliasWord" type="java.lang.String"><![CDATA[AS]]></Field>
@@ -36,7 +36,7 @@
 	<Field name="GetSeqRequest" type="java.lang.String"><![CDATA[select %SCHEMA.%OBJECT.nextval from dual]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[e9120718-5b1e-3e9c-b3b9-28317b288494]]></Field>
 	<Field name="IndCatalog" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IndChange" type="java.lang.String">null</Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
 	<Field name="IndDserver" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndFileParam" type="java.lang.String"><![CDATA[0]]></Field>
 	<Field name="IndJoinCapMixed" type="java.lang.String"><![CDATA[0]]></Field>
@@ -53,7 +53,7 @@
 	<Field name="IndSuppSelLk" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndSuppSetOperator" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndSuppWinFnc" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IAkTxt" type="com.sunopsis.sql.DbInt"><![CDATA[154]]></Field>
 	<Field name="ICheckTxt" type="com.sunopsis.sql.DbInt"><![CDATA[152]]></Field>
 	<Field name="IFkTxt" type="com.sunopsis.sql.DbInt"><![CDATA[153]]></Field>
@@ -73,7 +73,7 @@
 	<Field name="JoinOuterLoc" type="java.lang.String"><![CDATA[C]]></Field>
 	<Field name="JoinOuterSide" type="java.lang.String"><![CDATA[O]]></Field>
 	<Field name="JoinRightOut" type="java.lang.String"><![CDATA[RIGHT OUTER JOIN]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:58.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LocObjPattern" type="java.lang.String"><![CDATA[%SCHEMA.%OBJECT]]></Field>
 	<Field name="LocSeqCurrPattern" type="java.lang.String"><![CDATA[%SCHEMA.%OBJECT.currval]]></Field>
@@ -101,12 +101,12 @@
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[4c8fdc5e-0e6e-3a0f-99d3-733307ead62b]]></Field>
 	<Field name="IndexTypeCode" type="java.lang.String"><![CDATA[BITMAP]]></Field>
 	<Field name="IndexTypeName" type="java.lang.String"><![CDATA[Bitmap]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
 	<Field name="IIndexType" type="com.sunopsis.sql.DbInt"><![CDATA[38]]></Field>
 	<Field name="IItypeClauseTxt" type="com.sunopsis.sql.DbInt"><![CDATA[146]]></Field>
 	<Field name="IItypeDescTxt" type="com.sunopsis.sql.DbInt"><![CDATA[145]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
@@ -136,12 +136,12 @@
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[87b5fcbe-4096-3741-86f1-aae58c6e4016]]></Field>
 	<Field name="IndexTypeCode" type="java.lang.String"><![CDATA[NON_UNIQUE]]></Field>
 	<Field name="IndexTypeName" type="java.lang.String"><![CDATA[Non-Unique]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
 	<Field name="IIndexType" type="com.sunopsis.sql.DbInt"><![CDATA[39]]></Field>
 	<Field name="IItypeClauseTxt" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="IItypeDescTxt" type="com.sunopsis.sql.DbInt"><![CDATA[147]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
@@ -161,12 +161,12 @@
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[0fc9a843-41cd-30dc-8245-7817531a0e3e]]></Field>
 	<Field name="IndexTypeCode" type="java.lang.String"><![CDATA[UNIQUE]]></Field>
 	<Field name="IndexTypeName" type="java.lang.String"><![CDATA[Unique]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
 	<Field name="IIndexType" type="com.sunopsis.sql.DbInt"><![CDATA[40]]></Field>
 	<Field name="IItypeClauseTxt" type="com.sunopsis.sql.DbInt"><![CDATA[149]]></Field>
 	<Field name="IItypeDescTxt" type="com.sunopsis.sql.DbInt"><![CDATA[148]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpMtxt">
@@ -405,7 +405,7 @@ order by c.constraint_name,cc.position
 	<Field name="IGrpAction" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
 	<Field name="ITxtDesc" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpAction">
@@ -417,7 +417,7 @@ order by c.constraint_name,cc.position
 	<Field name="IAction" type="com.sunopsis.sql.DbInt"><![CDATA[23]]></Field>
 	<Field name="IGrpAction" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
 	<Field name="ITxtDesc" type="com.sunopsis.sql.DbInt"><![CDATA[157]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpLineAction">
@@ -432,7 +432,7 @@ order by c.constraint_name,cc.position
 	<Field name="IsolLevel" type="java.lang.String">null</Field>
 	<Field name="IAction" type="com.sunopsis.sql.DbInt"><![CDATA[23]]></Field>
 	<Field name="ITxtAction" type="com.sunopsis.sql.DbInt"><![CDATA[156]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LineActionName" type="java.lang.String"><![CDATA[Drop Table]]></Field>
 	<Field name="OrdAction" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
@@ -484,7 +484,7 @@ Restrictions:
 	<Field name="IAction" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
 	<Field name="IGrpAction" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
 	<Field name="ITxtDesc" type="com.sunopsis.sql.DbInt"><![CDATA[159]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpLineAction">
@@ -499,7 +499,7 @@ Restrictions:
 	<Field name="IsolLevel" type="java.lang.String">null</Field>
 	<Field name="IAction" type="com.sunopsis.sql.DbInt"><![CDATA[24]]></Field>
 	<Field name="ITxtAction" type="com.sunopsis.sql.DbInt"><![CDATA[158]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LineActionName" type="java.lang.String"><![CDATA[Modify Column Attributes]]></Field>
 	<Field name="OrdAction" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
@@ -562,7 +562,7 @@ Restrictions:
 	<Field name="IGrpAction" type="com.sunopsis.sql.DbInt"><![CDATA[7]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
 	<Field name="ITxtDesc" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpAction">
@@ -574,7 +574,7 @@ Restrictions:
 	<Field name="IAction" type="com.sunopsis.sql.DbInt"><![CDATA[25]]></Field>
 	<Field name="IGrpAction" type="com.sunopsis.sql.DbInt"><![CDATA[7]]></Field>
 	<Field name="ITxtDesc" type="com.sunopsis.sql.DbInt"><![CDATA[161]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpLineAction">
@@ -589,7 +589,7 @@ Restrictions:
 	<Field name="IsolLevel" type="java.lang.String">null</Field>
 	<Field name="IAction" type="com.sunopsis.sql.DbInt"><![CDATA[25]]></Field>
 	<Field name="ITxtAction" type="com.sunopsis.sql.DbInt"><![CDATA[160]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LineActionName" type="java.lang.String"><![CDATA[Drop Table]]></Field>
 	<Field name="OrdAction" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
@@ -641,7 +641,7 @@ Restrictions:
 	<Field name="IAction" type="com.sunopsis.sql.DbInt"><![CDATA[26]]></Field>
 	<Field name="IGrpAction" type="com.sunopsis.sql.DbInt"><![CDATA[7]]></Field>
 	<Field name="ITxtDesc" type="com.sunopsis.sql.DbInt"><![CDATA[163]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpLineAction">
@@ -656,7 +656,7 @@ Restrictions:
 	<Field name="IsolLevel" type="java.lang.String">null</Field>
 	<Field name="IAction" type="com.sunopsis.sql.DbInt"><![CDATA[26]]></Field>
 	<Field name="ITxtAction" type="com.sunopsis.sql.DbInt"><![CDATA[162]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:18.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LineActionName" type="java.lang.String"><![CDATA[Modify Column Attributes]]></Field>
 	<Field name="OrdAction" type="com.sunopsis.sql.DbInt"><![CDATA[0]]></Field>
@@ -3856,10 +3856,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[c1a76754-f0ad-3f85-aca2-5dd3087032c8]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[C]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[8]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:15.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:19.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[2000]]></Field>
@@ -4718,10 +4718,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[93df2a7c-0524-3d34-b6c1-af1f2048d910]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[R]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:16.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:19.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[18]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -5220,10 +5220,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[e3769bdb-bb69-378e-b95a-3006b1036b13]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[L]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[28]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:16.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:20.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -5695,10 +5695,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[eb84addd-7212-3895-bcbf-e9171be54ff0]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[R]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[29]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:16.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:20.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[2000]]></Field>
@@ -6170,10 +6170,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[0368e0d2-89ad-3296-93eb-add59588172b]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[L]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:17.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:20.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -6663,10 +6663,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[afabced4-0d20-3365-b2f8-af35356b58c2]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[F]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[31]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:17.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:21.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[126]]></Field>
@@ -7525,10 +7525,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[3aa96364-7857-3be0-a55e-42951f49c442]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[R]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[32]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:17.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:21.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -8234,10 +8234,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[74b492d3-896b-3501-8964-73b42bae1d5b]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[V]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[33]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:18.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:21.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[4000]]></Field>
@@ -10176,10 +10176,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[c1de72a8-5caf-32af-a6bc-c222507c062a]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[D]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[34]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:19.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:22.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -11299,10 +11299,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[f7eaeb1b-18e7-3e49-b3eb-9aeddd509428]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[N]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[196]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:19.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:23.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[38]]></Field>
@@ -15437,10 +15437,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[a8231087-3d18-3f86-8141-2e8533e198bb]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[U]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[467]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:22.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:25.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[4000]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[4000]]></Field>
@@ -15921,10 +15921,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[b957254f-1610-3a85-bb05-4400ac629a98]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[X]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[474]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:22.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:26.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -16414,10 +16414,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[ae6d0a66-e0ee-374a-aa6e-b8a3f6aee4a1]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[C]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[476]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:22.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:26.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[1]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[2000]]></Field>
@@ -17006,10 +17006,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[085d2c4e-800a-368e-b44f-8cf019c89d63]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[B]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[500]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:22.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:26.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -18327,10 +18327,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[633aaa1b-17c3-3786-9e3d-40a9d0d37cb8]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[C]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[501]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:23.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:27.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -19243,10 +19243,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[73d1e46b-98f6-3658-a557-008766430ec0]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[I]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[502]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:23.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:27.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
@@ -19772,10 +19772,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[d4c9a205-61ca-367f-b467-5865aff7dfdb]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[I]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[503]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:24.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:27.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[2]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
@@ -20301,10 +20301,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[14c018d1-2d22-3fa9-ad06-511939df930a]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[T]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[504]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:24.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:28.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
@@ -21280,10 +21280,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[a00b67f7-8c7a-338a-b91c-7a084a160e87]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[T]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[505]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:25.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:28.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
@@ -21773,10 +21773,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[53a99e5e-a905-36ed-88ba-a9394805f276]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[T]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[506]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:25.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:28.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[9]]></Field>
@@ -22311,10 +22311,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[b94f6ba3-41b4-43a4-8198-33903073adc2]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[A]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[814]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:25.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:29.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -22372,10 +22372,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[90f263cf-5431-4144-a2ed-ab8192e22730]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[X]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[815]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:25.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:29.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -22451,10 +22451,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[5ac33d5a-0590-3c38-9869-b28b4157b51d]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[T]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[830]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:25.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:29.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -22944,10 +22944,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[faf6652e-9adc-3a15-970b-60d5871da49c]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[T]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[831]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:25.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:29.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -23428,10 +23428,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[2af08497-0229-308d-8d45-87e691b9a19e]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[T]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[832]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:26.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:29.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -23903,10 +23903,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[992f6290-d9c8-37cd-9ca6-5358b7483444]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[G]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[610]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:26.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:29.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -24387,10 +24387,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[87020067-6b3c-3e9f-a79d-1966005850ee]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[G]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[611]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:26.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:29.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -24871,10 +24871,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[a5e5e987-2802-3839-b1ef-837da49c3346]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[N]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[644]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:26.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:30.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -25454,10 +25454,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[9e000f10-4837-32c8-9366-234ca3e8d028]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[F]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[645]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:26.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:30.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -25992,10 +25992,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[6495d7a2-7581-33c1-a66f-4bd58d501c99]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[D]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[646]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:27.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:30.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -26539,10 +26539,10 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[2f46929d-df26-3a32-94fd-698b1ab01d18]]></Field>
 	<Field name="IconLetter" type="java.lang.String"><![CDATA[V]]></Field>
 	<Field name="IndWrite" type="java.lang.String"><![CDATA[1]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[45]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[47]]></Field>
 	<Field name="IDt" type="com.sunopsis.sql.DbInt"><![CDATA[669]]></Field>
 	<Field name="ITechno" type="com.sunopsis.sql.DbInt"><![CDATA[74]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 06:53:27.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:04:30.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="LengthDefault" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LengthMax" type="com.sunopsis.sql.DbInt"><![CDATA[4000]]></Field>
@@ -27162,22 +27162,6 @@ respect to a given sorting specification.]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[f53aefed-d496-4b6a-82fd-562bb11f2caf]]></Field>
 	<Field name="Version" type="java.lang.String"><![CDATA[89fa469ab9e118740614bd0053e67b0984dcd954]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Logical Architecture/LSC_DB_HR.xml]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
-		<Field name="Type" type="java.lang.String"><![CDATA[SnpLschema]]></Field>
-	<Field name="SubType" type="java.lang.String">null</Field>
-	<Field name="Name" type="java.lang.String"><![CDATA[LS_ORA_BIDA_USER]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[b4904c41-37bb-44ee-8da5-4e4ba2ffc8c8]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[f7ae206620992b7a0ba6bc0c2d31c92595110971]]></Field>
-	<Field name="Path" type="java.lang.String"><![CDATA[Logical Architecture/LSC_LS_ORA_BIDA_USER.xml]]></Field>
-</Object>
-<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
-		<Field name="Type" type="java.lang.String"><![CDATA[SnpLschema]]></Field>
-	<Field name="SubType" type="java.lang.String">null</Field>
-	<Field name="Name" type="java.lang.String"><![CDATA[Test_Logical_Schema]]></Field>
-	<Field name="GlobalId" type="java.lang.String"><![CDATA[00f05412-de0c-4121-9af3-9932efa67899]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[e8840c5452e76967d32ceee5505a4a427e434bc3]]></Field>
-	<Field name="Path" type="java.lang.String"><![CDATA[Logical Architecture/LSC_Test_Logical_Schema.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MTXT.155]]></Field>
