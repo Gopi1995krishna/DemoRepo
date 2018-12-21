@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="iuqzVvUoOvUfMOUnersPjg==" exportKeySalt="1d0d3f20-be27-476a-bb65-d95119d8546a" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="KFRZlN9rgAmMR8XvFTFiZQ==" exportKeySalt="08fa6e3e-c960-4b4c-abc2-6dd107d938fe" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpProject">
 		<Field name="BegVersion" type="java.sql.Timestamp">null</Field>
 	<Field name="ExtVersion" type="java.lang.String">null</Field>
@@ -9,9 +9,9 @@
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[498def7c-ee64-44d3-8e81-d467cb6f6b24]]></Field>
 	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[55]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[57]]></Field>
 	<Field name="IProject" type="com.sunopsis.sql.DbInt"><![CDATA[541]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 09:38:17.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 09:45:10.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="ProjectCode" type="java.lang.String"><![CDATA[EXP_FF_RT]]></Field>
 	<Field name="ProjectName" type="java.lang.String"><![CDATA[Exp-FF-RT]]></Field>
@@ -31,7 +31,7 @@
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[Test]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[9c104da6-cfec-4b55-9634-45cd70143205]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[78ed928404cd7a9abae7068e1fdb58c883ec825a]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[b5f16ef5933df1276f1ea0c34abbae1e2ffbb395]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Test/FOLD_Test.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
