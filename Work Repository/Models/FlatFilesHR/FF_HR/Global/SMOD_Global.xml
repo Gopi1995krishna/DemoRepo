@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
+<<<<<<< HEAD
 <Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="DD6FQK+scNz/osGuPeccSw==" exportKeySalt="889101c7-b853-4989-87e8-69462e2b3508" containsCipherText="false"/>
+=======
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="K16pkWfnnjG1exldXhS9Yg==" exportKeySalt="b2ec87b8-d86a-4593-85aa-6ef3f49ed4fa" containsCipherText="false"/>
+>>>>>>> Development
 <Object class="com.sunopsis.dwg.dbobj.SnpSubModel">
 		<Field name="CodSmod" type="java.lang.String"><![CDATA[DEFAULT]]></Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-12-07 07:36:14.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[ccb839c8-e103-4a99-a38a-d5359feea87a]]></Field>
+<<<<<<< HEAD
 	<Field name="IndChange" type="java.lang.String">null</Field>
 	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[50]]></Field>
 	<Field name="IMod" type="com.sunopsis.sql.DbInt"><![CDATA[81]]></Field>
 	<Field name="ISmod" type="com.sunopsis.sql.DbInt"><![CDATA[92]]></Field>
 	<Field name="ISmodParent" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
 	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 09:18:22.0]]></Field>
+=======
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[48]]></Field>
+	<Field name="IMod" type="com.sunopsis.sql.DbInt"><![CDATA[81]]></Field>
+	<Field name="ISmod" type="com.sunopsis.sql.DbInt"><![CDATA[92]]></Field>
+	<Field name="ISmodParent" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 09:11:23.0]]></Field>
+>>>>>>> Development
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="RevApplyPattern" type="java.lang.String">null</Field>
 	<Field name="RevPatternOrder" type="java.lang.String">null</Field>
@@ -25,7 +38,11 @@
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[Copy of continents]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[6da1e609-ad35-4601-ae61-69354661426c]]></Field>
+<<<<<<< HEAD
 	<Field name="Version" type="java.lang.String"><![CDATA[f325a01a2fff7aa792705a8b750c42934130b70b]]></Field>
+=======
+	<Field name="Version" type="java.lang.String"><![CDATA[cd14a1a90a705048fb149a611cd5e26250c4afd1]]></Field>
+>>>>>>> Development
 	<Field name="Path" type="java.lang.String"><![CDATA[TAB_Copy_of_continents.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
@@ -33,7 +50,11 @@
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[continents]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[5c29d3fc-9c77-4250-8df2-7cebed6d99b9]]></Field>
+<<<<<<< HEAD
 	<Field name="Version" type="java.lang.String"><![CDATA[1758ffd2294d5385dad1e5afb5be227796125885]]></Field>
+=======
+	<Field name="Version" type="java.lang.String"><![CDATA[25bfb801ff0b609255a31f913c2d72ba23717fdd]]></Field>
+>>>>>>> Development
 	<Field name="Path" type="java.lang.String"><![CDATA[TAB_continents.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
