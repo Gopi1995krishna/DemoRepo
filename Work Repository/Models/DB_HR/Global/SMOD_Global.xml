@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="rGrohTphurab+AP9ZBhy8w==" exportKeySalt="0ea772cf-5a1f-46d9-b736-e7bb9c4e8147" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="cSw8GiUNG5Do5JmasdDGew==" exportKeySalt="15c3b911-6ad8-482c-b378-294f40ca43a6" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpSubModel">
 		<Field name="CodSmod" type="java.lang.String"><![CDATA[DEFAULT]]></Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-12-07 07:36:14.0]]></Field>
@@ -19,6 +19,14 @@
 	<Field name="SmodName" type="java.lang.String"><![CDATA[Global]]></Field>
 	<Field name="SmodType" type="java.lang.String"><![CDATA[D]]></Field>
 	<Field name="TableNamePattern" type="java.lang.String">null</Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[CONTINENTS]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[43c320c5-064a-4ec7-9f6e-038d592212ef]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[42c05e7192fc9719dde929ef7275fa2079f7b89a]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_CONTINENTS.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MODEL.82]]></Field>
