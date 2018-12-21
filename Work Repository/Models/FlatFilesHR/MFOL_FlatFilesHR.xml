@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="HvOXZODtIAJxGjjm6NfvpA==" exportKeySalt="0a8b2a7c-58da-4f8c-80b5-f1667a79f11e" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="PsPwDqyhHZY+kRTrYsbKoQ==" exportKeySalt="4f15a7c6-02db-488f-bfa5-93fc450cdfd1" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpModFolder">
 		<Field name="ExtVersion" type="java.lang.String">null</Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2018-12-07 07:36:14.0]]></Field>
 	<Field name="FirstUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[81d79ff0-4ef4-4fba-82cd-3afbcb6ebe1a]]></Field>
-	<Field name="IndChange" type="java.lang.String">null</Field>
-	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[17]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
+	<Field name="IntVersion" type="com.sunopsis.sql.DbInt"><![CDATA[35]]></Field>
 	<Field name="IModFolder" type="com.sunopsis.sql.DbInt"><![CDATA[51]]></Field>
 	<Field name="ITxtDescription" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-18 13:46:34.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2018-12-21 07:12:43.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="ModFolderName" type="java.lang.String"><![CDATA[FlatFilesHR]]></Field>
 	<Field name="ParIModFolder" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
@@ -22,7 +22,7 @@
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[FF-HR]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[86970f82-b801-41ca-a52a-e0211d63a28e]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[3bd41c9bb2a26f71d16bd3c50c78842f18e43330]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[943a1093f9aa04b708f3b84b1f7f520359705b73]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[FF_HR/MOD_FF_HR.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.DwgExportSummary">
